@@ -16,7 +16,6 @@ public class TabBarActivity extends TabActivity {
         TabHost.TabSpec spec;
         Intent intent;
 
-
         intent = new Intent().setClass(this, FirstActivity.class);
         spec = tabHost.newTabSpec("First").setIndicator("First")
                 .setContent(intent);
